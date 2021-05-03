@@ -46,6 +46,21 @@ nav {
   height: 30px;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #DAE2ED;
+  font-weight: bold;
+  font-size: 30;
+}
+
 #main-text {
   padding: 20px;
   background-color: #1D1D1D;
