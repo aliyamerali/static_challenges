@@ -2,10 +2,6 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
-header {
-
-}
-
 #title {
   color: #DAE2ED;
   height: 30px;
@@ -15,7 +11,7 @@ header {
   left: 0;
   width: 95%;
   background-color: #1D1D1D;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   font-weight: bold;
   font-size: 30;
   display: inline-block;
@@ -26,7 +22,6 @@ header {
   font-family: Arial, Verdana, sans-serif;
   height: 30px;
   padding: 15px 30px;
-  border-bottom: 2px solid white;
   position: fixed;
   top: 0;
   right: 0;
@@ -41,12 +36,51 @@ header {
 }
 
 nav {
-  margin-top: 62px;
+  margin-top: 61px;
   text-align: center;
   padding-top: 12px;
   word-spacing: 250px;
   color: #DAE2ED;
   background-color: #052E63;
-  border-bottom: 2px solid green;
+  border-bottom: 1px solid white;
   height: 30px;
+}
+
+#main-text {
+  padding: 20px;
+  background-color: #1D1D1D;
+  color: #DAE2ED;
+}
+
+p {
+  padding-bottom: 10px;
+  width:100%;
+}
+
+#other-attractions {
+  padding: 60px 20px 20px 20px;
+  background-color: #DAE2ED;
+  color: #1D1D1D;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20;
+  padding: 2px;
+}
+
+.small-photo {
+  width:350px;
+  height:200px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #1D1D1D;
+  color: #DAE2ED;
 }
