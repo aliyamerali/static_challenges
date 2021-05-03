@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+
+}
+
+#title {
+  color: #DAE2ED;
+  height: 30px;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background-color: #1D1D1D;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  font-size: 30;
+  display: inline-block;
+}
+
+#login {
+  color: #DAE2ED;
+  font-family: Arial, Verdana, sans-serif;
+  height: 30px;
+  padding: 15px 30px;
+  border-bottom: 2px solid white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5%;
+  background-color: #588C09;
+  font-weight: normal;
+  font-size: 15;
+  float: right;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav {
+  margin-top: 62px;
+  text-align: center;
+  padding-top: 12px;
+  word-spacing: 250px;
+  color: #DAE2ED;
+  background-color: #052E63;
+  border-bottom: 2px solid green;
+  height: 30px;
+}
